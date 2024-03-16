@@ -1,0 +1,50 @@
+/*.image-carousel-container {*/
+/*    position: relative;*/
+/*    margin: 0 auto;*/
+/*    overflow: hidden; !* Скрыть элементы, выходящие за пределы контейнера *!*/
+/*}*/
+
+/*.image-carousel-container::before {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*    pointer-events: none; !* Сделать маску некликабельной *!*/
+/*    background: linear-gradient(90deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 30%, rgba(0,0,0,0) 70%, rgba(0,0,0,0.8) 100%);*/
+/*    z-index: 2;*/
+/*}*/
+
+/*.image-carousel-slide {*/
+/*    margin: 0 10px; !* Уменьшен отступ между слайдами *!*/
+/*}*/
+
+/*.image-carousel-slide img {*/
+/*    height: 150px;*/
+/*    width: auto;*/
+/*}*/
+
+.image-carousel-container {
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    overflow: hidden; /* Скрыть элементы, выходящие за пределы контейнера */
+    /* Добавление маски к контейнеру */
+    -webkit-mask-image: linear-gradient(90deg, transparent 0%, black 30%, black 70%, transparent 100%);
+    mask-image: linear-gradient(100deg, transparent 0%, black 30%, black 70%, transparent 100%);
+}
+
+/* Удаление стилей, создающих градиентный фон, теперь они не нужны */
+.image-carousel-container::before {
+    /* Стили удалены */
+}
+
+.image-carousel-slide {
+    margin: 0 10px; /* Уменьшен отступ между слайдами */
+}
+
+.image-carousel-slide img {
+    height: 150px;
+    width: auto;
+}

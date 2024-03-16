@@ -1,0 +1,12 @@
+/* ContainerComponent.css */
+.container-component {
+    position: relative;
+}
+
+.buttons-block {
+    position: absolute;
+    top: 50%; /* Адаптируйте эти значения под ваш дизайн */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Центрирование ButtonsBlock */
+    z-index: 2; /* Убедитесь, что z-index ButtonsBlock выше, чем у ImageCarousel */
+}

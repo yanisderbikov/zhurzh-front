@@ -1,0 +1,11 @@
+/* src/components/BackgroundImage/backgroundImage.css */
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200vh; /* Высота вьюпорта, адаптируйте под ваш дизайн */
+    background-size: cover;
+    background-position: center;
+    z-index: -1; /* Убедитесь, что фон находится позади других элементов */
+}

@@ -1,0 +1,20 @@
+/* src/components/ContentBlock/contentBlock.css */
+.content-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column, .right-column {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-column {
+    /* Дополнительные стили для левой колонки при необходимости */
+}
+
+.right-column {
+    /* Дополнительные стили для правой колонки при необходимости */
+}

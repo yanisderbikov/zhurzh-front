@@ -1,0 +1,27 @@
+/* src/components/TextBlock/textBlock.css */
+.text-block {
+    background: rgba(0, 0, 0, 0.3); /* Черный размытый блок с прозрачностью 30% */
+    color: white;
+    padding: 40px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); /* Эффект размытия */
+    backdrop-filter: blur(5px); /* Размытие фона под блоком */
+    border-radius: 10px;
+    margin: 50px;
+    width: auto;
+    max-width: 400px; /* Подстройте под ваш дизайн */
+}
+
+/*.text-block {*/
+/*    background: rgba(0, 0, 0, 0.3); !* Черный размытый блок с прозрачностью 30% *!*/
+/*    color: white;*/
+/*    padding: 40px;*/
+/*    box-shadow:*/
+/*            0 0 15px 5px rgba(0, 0, 0, 0.37), !* Центральная тень для размытия *!*/
+/*            0 0 20px 10px rgba(0, 0, 0, 0.2), !* Внешняя тень для дополнительного размытия *!*/
+/*            inset 0 0 15px rgba(0, 0, 0, 0.5); !* Внутренняя тень для углубления центра *!*/
+/*    backdrop-filter: blur(5px); !* Размытие фона под блоком *!*/
+/*    border-radius: 10px;*/
+/*    margin: 50px auto; !* Центрирование блока *!*/
+/*    width: auto;*/
+/*    max-width: 400px; !* Подстройте под ваш дизайн *!*/
+/*}*/

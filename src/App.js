@@ -51,11 +51,7 @@ const buttons = <ButtonsBlock>
 function App() {
     return (
         <div className="App">
-
             <Header/>
-            {/*<BackgroundImage imageUrl={''} />*/}
-
-            {/*<ParallaxComponent imageUrl="https://d.furaffinity.net/art/marzipan~/1710566200/1710566200.marzipan~_img_3680.png" speed={0.1} />*/}
             <Parallax
                 blur={{min: 0, max: 0}}
                 bgImage='https://d.furaffinity.net/art/zhurzh/1695641846/1695641547.zhurzh_portrait_png.png'
@@ -75,7 +71,6 @@ function App() {
                     buttonsBlock={buttons}
                 />
             </Parallax>
-
         </div>
     );
 }

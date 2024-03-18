@@ -9,5 +9,4 @@ const TextBlock = ({ text }) => {
         </div>
     );
 };
-
 export default TextBlock;

@@ -5,9 +5,9 @@ const Header = () => {
         <header className="header">
             <nav>
                 <ul>
-                    <li><a href="#searem">SeaRem</a></li>
-                    <li><a href="#pricelist">PriceList</a></li>
-                    <li><a href="#marzipan">Marzipan</a></li>
+                    <li><a href="/searem">SeaRem</a></li>
+                    <li><a href="/pricelist">PriceList</a></li>
+                    <li><a href="https://t.me/ZhurzhBot">Marzipan</a></li>
                 </ul>
             </nav>
         </header>

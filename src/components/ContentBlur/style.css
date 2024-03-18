@@ -1,0 +1,23 @@
+/* style.css */
+/*.buttons-block {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    gap: 10px; !* Расстояние между кнопками *!*/
+/*    padding: 20px; !* Отступы внутри блока *!*/
+/*    !*background-color: #f0f0f0; !* Фоновый цвет блока *!*!*/
+/*    margin: 0 auto;*/
+/*    width: max-content;*/
+/*    backdrop-filter: blur(10px);*/
+/*    overflow: hidden;*/
+/*}*/
+.blur {
+    background: rgba(0, 0, 0, 0.3); /* Черный размытый блок с прозрачностью 30% */
+    color: white;
+    padding: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); /* Эффект размытия */
+    backdrop-filter: blur(5px); /* Размытие фона под блоком */
+    border-radius: 10px;
+    margin: 20px;
+    width: auto;
+    max-width: 400px; /* Подстройте под ваш дизайн */
+}

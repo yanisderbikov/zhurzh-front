@@ -3,10 +3,20 @@
     position: relative;
 }
 
-.buttons-block {
+.buttons-overlay {
     position: absolute;
-    top: 50%; /* Адаптируйте эти значения под ваш дизайн */
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Центрирование ButtonsBlock */
-    z-index: 2; /* Убедитесь, что z-index ButtonsBlock выше, чем у ImageCarousel */
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    /* Стили кнопок и другие необходимые стили */
+    z-index: 10; /* Убедитесь, что это значение достаточно для отображения поверх карусели */
+    gap: 20px;
 }
+/*.buttons-container {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    gap: 20px; !* Отступ между кнопками *!*/
+/*}*/
+

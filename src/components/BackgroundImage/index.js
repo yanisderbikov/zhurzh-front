@@ -2,9 +2,11 @@
 import React from 'react';
 import './backgroundImage.css';
 
-const BackgroundImage = ({ imageUrl }) => {
+const BackgroundImage = ({ imageUrl, blurPX }) => {
     return (
-        <div className="background-image" style={{ backgroundImage: `url(${imageUrl})` }} />
+        <div className="background-image" style={{
+            backgroundImage: `url(${imageUrl})`,
+        }} />
     );
 };
 

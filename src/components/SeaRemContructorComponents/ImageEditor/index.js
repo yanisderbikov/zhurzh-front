@@ -1,11 +1,7 @@
 import React, {useState, useEffect, useRef} from 'react';
 import axios from 'axios';
 import Header from "../../Header";
-import BackgroundImage from "../../BackgroundImage";
-import ContentBlur from "../../ContentBlur";
 import ContentBlock from "../../ContentBlock";
-import ContainerComponent from "../../ContainerComponent";
-import ImageCarousel from "../../ImageCarousel";
 import {Parallax} from "react-parallax";
 
 function ImageEditor({options}) {

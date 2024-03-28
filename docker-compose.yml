@@ -7,3 +7,7 @@ services:
       dockerfile: Dockerfile
     ports:
       - "8100:3000"
+    deploy:
+      resources:
+        limits:
+          memory: 150M
